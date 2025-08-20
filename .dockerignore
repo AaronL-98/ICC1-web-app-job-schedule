@@ -1,13 +1,33 @@
-.env
+# Python cache and compiled files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.db
+
 *.sqlite3
 instance/
+ICCwebapp/
+
+# Virtual environment folders
+venv/
+env/
+
+# OS-specific files
+.DS_Store
+*.db
+
+# Git files
 .git
 .gitignore
-.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# IDE project settings
 .vscode/
-ICCwebapp/
+.idea/
+
+# Local development files
+.env
